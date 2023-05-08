@@ -102,7 +102,7 @@ a:hover {
   object-fit: cover;
 }
 .description_container .description_container-info {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 /* SECTION SERVICES */
@@ -455,6 +455,11 @@ footer .bottom-details .bottom_text {
   }
   footer .content .link-boxes .box {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .values {
+    margin-top: 2rem;
   }
 }
 @media only screen and (max-width: 767px) {
